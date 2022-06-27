@@ -93,7 +93,7 @@ const TodoList = () => {
       {list.map((item) => (
         <div key={item.id}>
           <div className=" w-2/3 sm:w-96 h-auto">
-            <div className="flex flex-row justify-between border-b-2 dark:border-slate-200 p-2">
+            <div className=" sm:w-96 w-80 flex flex-row justify-between border-b-2 dark:border-slate-200 p-2">
               <span
                 style={{ color: `${colorTheme}` }}
                 className={`text-xl font-Vazir font-semibold`}
